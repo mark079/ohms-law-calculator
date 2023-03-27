@@ -1,0 +1,19 @@
+.toggle-area {
+  border: 2px solid #383a59;
+  border-radius: 20px;
+}
+.btn {
+  border: 0;
+  background-color: #383a59;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 5px;
+  color: white;
+}
+.btn:hover {
+  background-color: #ff5555;
+}
+.isActive {
+  border: 3px solid #bd93f9;
+}
