@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ohms-law-calculator/static/css/main.7f1342fc.css",
+    "main.js": "/ohms-law-calculator/static/js/main.d16b7321.js",
+    "index.html": "/ohms-law-calculator/index.html",
+    "main.7f1342fc.css.map": "/ohms-law-calculator/static/css/main.7f1342fc.css.map",
+    "main.d16b7321.js.map": "/ohms-law-calculator/static/js/main.d16b7321.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f1342fc.css",
+    "static/js/main.d16b7321.js"
+  ]
+}
