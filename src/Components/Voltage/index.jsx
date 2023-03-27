@@ -5,6 +5,7 @@ export const Voltage = () => {
   const [resistance, setResistance] = useState(0);
   const [result, setResult] = useState('');
   const handleClick = () => {
+    if(current <= 0 || resistance <= 0) return alert('Os valores informados precisam ser positivos');
     if(!current || !resistance) return alert('Os dois campos são obrigatórios');
     const handleResult = Number(current) * Number(resistance);
     Number.isInteger(handleResult) ? setResult(`${handleResult}v`) : setResult(`${handleResult.toFixed(2)}v`);
